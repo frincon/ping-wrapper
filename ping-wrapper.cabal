@@ -1,7 +1,9 @@
 name:                ping-wrapper
 version:             0.1.0.0
--- synopsis:
--- description:
+synopsis:            Haskell Ping wrapper
+description:
+  This utility is a wrapper for ping. Currently it is only implemented the
+  win32 and it will raise an exception in other systems.
 homepage:            https://github.com/frincon/ping-wrapper
 license:             Apache-2.0
 license-file:        LICENSE
