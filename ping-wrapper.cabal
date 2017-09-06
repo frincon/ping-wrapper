@@ -12,7 +12,10 @@ maintainer:          frm.rincon@gmail.com
 copyright:           (c) 2017, Fernando Rincon Martin
 category:            System
 build-type:          Simple
+-- Added the sources of platforms here in order to include them in the package
 extra-source-files:  README.md
+                   , win32/src/Ping/Platform.hs
+                   , linux/src/Ping/Platform.hs
 cabal-version:       >=1.10
 
 library
