@@ -1,5 +1,5 @@
 name:                ping-wrapper
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Haskell Ping wrapper
 description:
   This utility is a wrapper for ping. Currently it is only implemented the
@@ -10,7 +10,7 @@ license-file:        LICENSE
 author:              Fernando Rincon Martin
 maintainer:          frm.rincon@gmail.com
 copyright:           (c) 2017, Fernando Rincon Martin
-category:            Attoparsec, Parsers
+category:            System
 build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
